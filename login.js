@@ -2,7 +2,7 @@ let submitButton = document.getElementById("login-btn");
 let email = document.getElementById("email");
 let password = document.getElementById("pass");
 
-let userEmail = "raidislam01@gmail.com";
+let userEmail = "taka@bank.com";
 let userPassword = 12345;
 
 submitButton.addEventListener("click", function () {
@@ -10,7 +10,7 @@ submitButton.addEventListener("click", function () {
     //transfer another page
     window.location.href = "banking.html";
   } else {
-    alert("email or id thik moto de 😡");
+    alert("email or id thik moto den sir 😡");
   }
 });
 
